@@ -24,12 +24,12 @@ module.exports = {
         'lily-white': '#EBF8FF',
       },
       backgroundImage: {
-        aboutUs: "url('/media/img/about-bg.png')",
-        program: "url('/media/img/program-bg.png')",
+        aboutUs: "url('@/assets/media/img/about-bg.png')",
+        program: "url('@/assets/media/img/program-bg.png')",
 
-        aente: "url('/media/img/program_bg/aente.png')",
-        codeblaze: "url('/media/img/program_bg/codeblaze.png')",
-        ideahack: "url('/media/img/program_bg/ideahack.png')",
+        aente: "url('@/assets/media/img/program_bg/aente.png')",
+        codeblaze: "url('@/assets/media/img/program_bg/codeblaze.png')",
+        ideahack: "url('@/assets/media/img/program_bg/ideahack.png')",
       }
     },
   },

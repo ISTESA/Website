@@ -4,7 +4,7 @@
             <p class="text-white font-semibold tracking-wider">© ISTESA 2024</p>
         </div>
         <div class="flex justify-center items-center">
-            <img :src="'/media/svg/LOGO_CRC_FULLRES-BLACK-FIT.svg'" class="w-1/5" />
+            <img src="@/assets/media/svg/LOGO_CRC_FULLRES-BLACK-FIT.svg" class="w-1/5" />
             <!-- <p class="mb-5 text-md text-gray-400">Gallery</p>
             <p class="mb-5 text-md text-gray-400">Contact Us</p> -->
         </div>
