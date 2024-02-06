@@ -1,29 +1,20 @@
-# istesa-front
 
-This template should help get you started developing with Vue 3 in Vite.
+<p  align="center">
 
-## Recommended IDE Setup
+<a href="https://ibb.co/NCzKFzd"><img src="https://i.ibb.co/wg14d1F/LOGO-LBL-FULLRES-ALT1.png" alt="LOGO-LBL-FULLRES-ALT1" border="0"></a></p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## About ISTESA
 
-## Customize configuration
+We are a college organization with varying and colorful ideas to be implemented using vastly improved technology to bring a better future for all of mankind. We strive to host a lot of useful projects based on our experiences for those around us.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## What is this project?  
 
-## Project Setup
+This project is made with collaboration of members of ISTESA to provide an useful, accessible and informative Web based platform for those who want to know more about us and also allow those around us to experiment, have a space to grow their business and show their findings here.
 
-```sh
-npm install
-```
+The main features we have currently have are : 
 
-### Compile and Hot-Reload for Development
+- Allowing members of ISTESA to manage their tasks and agendas.
 
-```sh
-npm run dev
-```
+- Providing space for people around us to start growing their business.
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- A one-stop platform that's accessible by everyone to be connected with us and stay informed about our activity and achievements.
