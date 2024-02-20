@@ -9,7 +9,7 @@
                 <h1 class="text-rhino text-xl pt-8 pb-2 font-bold tracking-wide">Art Exhibition and Tech Exposition</h1>
                 <p class="text-rhino grow">An annual event where students shares their Art creation and we also held a Technological talkshow and related events.</p>
 
-                <a href="#" class="bg-aente bg-cover text-white text-center font-black p-2 mt-5 tracking-wide rounded-lg">Learn More</a>
+                <a href="#" class="bg-gradient-to-bl from-[#1E0065] via-[#53109F] to-[#7605AB] text-white text-center font-black p-2 mt-5 tracking-wide rounded-lg">Learn More</a>
             </div>
 
             <div class="flex flex-col px-6 py-10 bg-white rounded-2xl shadow-xl w-3/4 mx-2 justify-between">
@@ -30,14 +30,14 @@
                 <a href="#" class="bg-gradient-to-bl from-[#f9417a] via-[#f65b33] to-[#fbca31] text-white text-center font-black p-2 mt-5 tracking-wide rounded-lg">Learn More</a>
             </div>
 
-            <!-- <div class="flex flex-col px-6 py-10 bg-aente bg-cover rounded-2xl shadow-xl w-3/4 mx-2 justify-between">
-                <img src="@/assets/media/img/program_logo/aente.png" class="w-1/2">
+            <div class="flex flex-col px-6 py-10 bg-white rounded-2xl shadow-xl w-3/4 mx-2 justify-between">
+                <img src="@/assets/media/img/program_logo/pojoksuara.svg" class="w-1/2">
 
-                <h1 class="text-white text-xl pt-8 pb-2 font-semibold tracking-wide">Pojok Suara</h1>
-                <p class="text-white grow">A sharing session that held by students who wants to share their thoughts and ideas.</p>
+                <h1 class="text-rhino text-xl pt-8 pb-2 font-semibold tracking-wide">Pojok Suara</h1>
+                <p class="text-rhino grow">A sharing session that held by students who wants to share their thoughts and ideas.</p>
 
-                <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg">Learn More</a>
-            </div> -->
+                <a href="#" class="bg-gradient-to-bl from-[#002fd1] to-[#3766ed] text-white text-center font-black p-2 mt-5 tracking-wide rounded-lg">Learn More</a>
+            </div>
         </div>
     </div>
 </template>
