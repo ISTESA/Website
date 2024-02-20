@@ -10,7 +10,7 @@
         </div>
         <div class="text-white flex gap-4">
             <a href="https://github.com/ISTESA-ITBSS">
-                <font-awesome icon="fab fa-github" class="text-xl" />
+                <!-- <font-awesome icon="fab fa-github" class="text-xl" /> -->
             </a>
             <a href="https://www.instagram.com/istesa.itbss/">
                 <font-awesome icon="fab fa-instagram" class="text-xl" />

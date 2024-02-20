@@ -21,8 +21,8 @@
                     <ul class="flex justify-between">
                         <li class="px-4 font-medium"><a href="#home">Home</a></li>
                         <li class="px-4 font-medium"><a href="#about">About</a></li>
-                        <li class="px-4 font-medium"><a href="#program">Program</a></li>
                         <li class="px-4 font-medium"><a href="#team">Team</a></li>
+                        <li class="px-4 font-medium"><a href="#program">Program</a></li>
                         <li class="px-4 font-medium"><a href="#project">Projects</a></li>
                     </ul>
                 </nav>
