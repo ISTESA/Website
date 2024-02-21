@@ -34,13 +34,13 @@
             <!-- <a href="https://github.com/ISTESA-ITBSS">
                 <font-awesome icon="fab fa-github" class="text-xl" />
             </a> -->
-            <a href="https://www.instagram.com/istesa.itbss/">
+            <a href="instagram://user?username=istesa.itbss">
                 <font-awesome icon="fab fa-instagram" class="text-xl" />
             </a>
-            <a href="https://discord.com/invite/WSYfvtex6U">
+            <a href="intent://discord.com/invite/WSYfvtex6U#Intent;package=com.discord;scheme=https;end">
                 <font-awesome icon="fab fa-discord" class="text-xl" />
             </a>
-            <a href="https://www.youtube.com/@istesaitbss">
+            <a href="vnd.youtube://www.youtube.com/@istesaitbss">
                 <font-awesome icon="fab fa-youtube" class="text-xl" />
             </a>
         </div>

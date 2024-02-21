@@ -26,8 +26,9 @@
         </div>
         <div class="flex flex-col text-white pl-5 py-5 gap-4 border-l-2 border-white">
             <a href="https://itbss.ac.id/" class="tracking-wider font-medium text-2xl">ITBSS Website</a>
-            <a href="instagram://user?username=$istesa.itbss/" class="tracking-wider font-medium text-2xl">Our Instagram</a>
-            <a href="https://www.youtube.com/@istesaitbss" class="tracking-wider font-medium text-2xl">Our Youtube</a>
+            <a href="instagram://user?username=istesa.itbss" class="tracking-wider font-medium text-2xl">Our Instagram</a>
+            <a href="vnd.youtube://www.youtube.com/@istesaitbss" class="tracking-wider font-medium text-2xl">Our Youtube</a>
+            <a href="intent://discord.com/invite/WSYfvtex6U#Intent;package=com.discord;scheme=https;end" class="tracking-wider font-medium text-2xl">Our Discord</a>
         </div>
     </div>
 </template>

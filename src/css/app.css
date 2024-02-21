@@ -7,6 +7,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: light !important;
+    }
+}
+  
+@media (prefers-color-scheme: light) {
+    html {
+        color-scheme: light !important;
+    }
+}
+
 /* For Webkit-based browsers (Chrome, Safari and Opera) */
 .scrollbar-hide::-webkit-scrollbar {
     display: none;

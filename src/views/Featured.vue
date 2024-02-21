@@ -11,7 +11,7 @@
 
                 <!-- <p class="text-white">An annual event where students shares their Art creation and we also held a Technological talkshow and related events.</p> -->
 
-                <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
+                <a href="https://learnwith.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
             </div>
 
             <div class="flex flex-col px-6 py-10 bg-gradient-to-bl from-[#70CBFF] via-[#007CBE] to-[#084B83] rounded-2xl shadow-xl w-1/5 mx-2 justify-between items-center shrink-0">
@@ -33,7 +33,7 @@
 
                 <!-- <p class="text-white grow">A full 1 month training bootcamp focusing on building programming fundamentals on students by learning the basics and create a simple project.</p> -->
 
-                <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
+                <a href="https://temankanvas.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
             </div>
 
             <div class="flex flex-col px-6 py-10 bg-gradient-to-bl from-[#B5B4FF] via-[#B871FF] to-[#5D81FF] bg-cover rounded-2xl shadow-xl w-1/5 mx-2 justify-between items-center shrink-0">
@@ -43,7 +43,7 @@
 
                 <!-- <p class="text-white grow">A full 1 month training bootcamp focusing on building programming fundamentals on students by learning the basics and create a simple project.</p> -->
 
-                <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
+                <a href="https://logistika-id.netlify.app/" class="bg-white text-rhino text-center font-black p-2 mt-5 tracking-wide rounded-lg w-full">Learn More</a>
             </div>
 
             <div class="flex flex-col px-6 py-10 bg-gradient-to-bl from-[#74D5FF] to-[#27A3FB] rounded-2xl shadow-xl w-1/5 mx-2 justify-between items-center shrink-0">
@@ -72,7 +72,7 @@
 
                         <img src="@/assets/media/svg/startup/LearnWith.svg" class="w-3/5">
 
-                        <button class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</button>
+                        <a href="https://learnwith.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@
 
                         <img src="@/assets/media/svg/startup/didik.svg" class="w-3/5">
 
-                        <button class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</button>
+                        <a class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
 
                         <img src="@/assets/media/svg/startup/BelajarKanvas.svg" class="w-4/5">
 
-                        <button class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</button>
+                        <a href="https://temankanvas.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@
 
                         <img src="@/assets/media/svg/startup/logistika.svg" class="w-3/5">
 
-                        <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
+                        <a href="https://logistika-id.netlify.app/" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
                     </div>
                 </div>
 
