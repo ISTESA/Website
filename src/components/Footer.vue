@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full px-28 py-20 bg-black justify-between items-center">
+    <div class="hidden md:flex w-full px-28 py-20 bg-black justify-between items-center">
         <div>
             <p class="text-white font-semibold tracking-wider">© ISTESA 2024</p>
         </div>
@@ -12,6 +12,28 @@
             <a href="https://github.com/ISTESA-ITBSS">
                 <!-- <font-awesome icon="fab fa-github" class="text-xl" /> -->
             </a>
+            <a href="https://www.instagram.com/istesa.itbss/">
+                <font-awesome icon="fab fa-instagram" class="text-xl" />
+            </a>
+            <a href="https://discord.com/invite/WSYfvtex6U">
+                <font-awesome icon="fab fa-discord" class="text-xl" />
+            </a>
+            <a href="https://www.youtube.com/@istesaitbss">
+                <font-awesome icon="fab fa-youtube" class="text-xl" />
+            </a>
+        </div>
+    </div>
+
+    <div class="flex flex-col md:hidden px-28 py-20 bg-black justify-between items-center">
+        <img src="@/assets/media/svg/LOGO_CRC_FULLRES-BLACK-FIT.svg" class="w-1/3" />
+
+        <div>
+            <p class="text-white font-semibold tracking-wider mt-3">© ISTESA 2024</p>
+        </div>
+        <div class="mt-4 text-white flex gap-4">
+            <!-- <a href="https://github.com/ISTESA-ITBSS">
+                <font-awesome icon="fab fa-github" class="text-xl" />
+            </a> -->
             <a href="https://www.instagram.com/istesa.itbss/">
                 <font-awesome icon="fab fa-instagram" class="text-xl" />
             </a>

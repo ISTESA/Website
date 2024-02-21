@@ -12,7 +12,7 @@
     // })
 </script>
 <template>
-    <div class="flex items-center justify-between w-100 px-20 py-32" id="home">
+    <div class="hidden md:flex items-center justify-between w-100 px-20 py-32" id="home">
         <div class="w-1/2">
             <img src="@/assets/media/svg/abstract_ISTESA.svg" class="w-1/6 pb-5" />
             <h1 class="text-5xl font-bold text-rhino leading-tight">Embark on a Journey of Designing Tomorrow's World, Today.</h1>
@@ -29,5 +29,21 @@
         <div class="w-1/2">
             <img src="@/assets/media/img/hero-banner.png" />
         </div>
+    </div>
+
+    <div class="flex md:hidden items-center justify-center text-center flex-col pt-10 bg-program bg-cover mt-20 shadow-2xl" id="home_m">
+        <div class="flex flex-col px-6 gap-2">
+            <h1 class="text-5xl font-bold text-rhino leading-tight">Embark on a Journey of Designing Tomorrow's World, Today.</h1>
+            <p class="text-lg font-medium text-hollow-black leading-tight pt-5">We are an innovative campus organization that provides endless support for those who want to embark on a journey on developing tomorrow's world.</p>
+
+            <div class="m-10">
+                <a href="#about" class="bg-schoolbus text-ghost-white text-xl shadow-2xl font-semibold tracking-wide rounded-xl px-6 py-3">
+                    <font-awesome icon="fas fa-lightbulb" size="1x" />
+                    Learn more!
+                </a>
+            </div>
+        </div>
+        
+        <img src="@/assets/media/img/about-banner-2.png" class="" />
     </div>
 </template>

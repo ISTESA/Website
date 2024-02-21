@@ -2,12 +2,13 @@
 module.exports = {
   content: [
     "./src/**/*.vue",
-    "./src/**/*.js"
+    "./src/**/*.js",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
       colors: {
-        'hollow-black': '#000c',
+        'hollow-black': '#0009',
         'palatinate-blue': '#273BE2',
         'blueberry-blue': '#0041C2',
         'bright-sky': '#02CCFE',
@@ -22,6 +23,7 @@ module.exports = {
         'dark-cerulean': '#084B83',
         'hawkes-blue': '#C2E9FF',
         'lily-white': '#EBF8FF',
+        'darkblue': '#071632'
       },
       backgroundImage: {
         aboutUs: "url('@/assets/media/img/about-bg.png')",
@@ -33,6 +35,8 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 
