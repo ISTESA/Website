@@ -25,7 +25,7 @@
     </div>
 
     <div class="flex flex-col md:hidden px-28 py-20 bg-black justify-between items-center">
-        <img src="@/assets/media/svg/LOGO_CRC_FULLRES-BLACK-FIT.svg" class="w-1/3" />
+        <img src="@/assets/media/svg/LOGO_CRC_FULLRES-BLACK-FIT.svg" class="w-1/3 mlg:w-1/5" />
 
         <div>
             <p class="text-white font-semibold tracking-wider mt-3">© ISTESA 2024</p>

@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   darkMode: 'false',
   content: [
@@ -33,8 +36,12 @@ module.exports = {
         aente: "url('@/assets/media/img/program_bg/aente.png')",
         codeblaze: "url('@/assets/media/img/program_bg/codeblaze.png')",
         ideahack: "url('@/assets/media/img/program_bg/ideahack.png')",
-      }
+      },
     },
+    screens: {
+      'mlg': "465px",
+      ...defaultTheme.screens,
+    }
   },
   plugins: [
     require('flowbite/plugin')

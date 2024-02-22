@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    <div class="flex flex-col md:hidden items-center justify-center py-10 gap-5 bg-gradient-to-bl from-[#02A3FE] via-[#5A4CF9] to-[#632ABE] h-[65vh]" id="program_m">
+    <div class="flex flex-col md:hidden items-center justify-center py-10 gap-5 bg-gradient-to-bl from-[#02A3FE] via-[#5A4CF9] to-[#632ABE] h-[80vh]" id="program_m">
         <h1 class="text-4xl font-bold text-white pb-4 text-center">Our Programs</h1>
 
         <div id="controls-carousel" class="relative w-full h-full" data-carousel="static">
