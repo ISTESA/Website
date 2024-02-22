@@ -66,26 +66,26 @@
             <div class="relative h-full overflow-hidden rounded-lg">
 
                 <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out px-5 h-full" data-carousel-item>
+                <div class="hidden duration-700 ease-in-out px-5 h-full" data-carousel-item="active">
                     <div class="flex flex-col mlg:flex-row bg-gradient-to-bl from-[#02A3FE] via-[#5A4CF9] to-[#632ABE] px-6 py-10 rounded-2xl shadow-xl justify-center items-center gap-4 h-full">
                         <img src="@/assets/media/svg/featured/learnwith.svg" class="w-11/12 mlg:w-7/12 grow mlg:grow-0">
 
                         <div class="flex flex-col items-center w-full gap-1">
                             <img src="@/assets/media/svg/startup/LearnWith.svg" class="w-3/5 mlg:w-9/12">
 
-                            <a href="https://learnwith.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-7 tracking-wide rounded-lg w-full">Learn More</a>
+                            <a href="https://learnwith.istesa.net/" class="bg-white text-rhino text-center font-black p-2 my-7 tracking-wide rounded-lg w-full">Learn More</a>
                         </div>
                     </div>
                 </div>
 
                 <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out px-5 h-full" data-carousel-item="active">
+                <div class="hidden duration-700 ease-in-out px-5 h-full" data-carousel-item>
                     <div class="flex flex-col mlg:flex-row bg-gradient-to-bl from-[#70CBFF] via-[#007CBE] to-[#084B83] px-6 py-10 rounded-2xl shadow-xl justify-center items-center gap-4 h-full">
                         <img src="@/assets/media/svg/featured/didik.svg" class="w-3/5 mlg:w-6/12 grow mlg:grow-0">
 
                         <div class="flex flex-col items-center w-full gap-1">
                             <img src="@/assets/media/svg/startup/didik.svg" class="w-3/5 mlg:w-9/12">
-                            <a class="bg-white text-rhino text-center font-black p-2 mt-7 tracking-wide rounded-lg w-full">Learn More</a>
+                            <a class="bg-white text-rhino text-center font-black p-2 my-7 tracking-wide rounded-lg w-full">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                         <div class="flex flex-col items-center w-full gap-1">
                             <img src="@/assets/media/svg/startup/BelajarKanvas.svg" class="w-4/6 mlg:w-11/12">
 
-                            <a href="https://temankanvas.istesa.net/" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
+                            <a href="https://temankanvas.istesa.net/" class="bg-white text-rhino text-center font-black p-2 my-3 tracking-wide rounded-lg w-full">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                         <div class="flex flex-col items-center w-full gap-1">
                             <img src="@/assets/media/svg/startup/logistika.svg" class="w-3/6 mlg:w-8/12">
 
-                            <a href="https://logistika-id.netlify.app/" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
+                            <a href="https://logistika-id.netlify.app/" class="bg-white text-rhino text-center font-black p-2 my-3 tracking-wide rounded-lg w-full">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -124,11 +124,21 @@
                         <div class="flex flex-col items-center w-full gap-1">
                             <img src="@/assets/media/svg/startup/PathTrackr.svg" class="w-3/5 mlg:w-10/12">
 
-                            <a href="#" class="bg-white text-rhino text-center font-black p-2 mt-3 tracking-wide rounded-lg w-full">Learn More</a>
+                            <a href="#" class="bg-white text-rhino text-center font-black p-2 my-3 tracking-wide rounded-lg w-full">Learn More</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+            </div>
+
             <!-- Slider controls -->
             <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                 <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
